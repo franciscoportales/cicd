@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMG | Sistemas Operativos 2 - CI/CD</title>
+    <meta name="description" content="Página de bienvenida al curso de Sistemas Operativos 2, enfocada en la tarea de integración y despliegue continuo (CI/CD) en la Universidad Mariano Gálvez.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <main class="container">
+        <div class="glass-card fade-in">
+            <header class="card-header">
+                <div class="logo-placeholder">
+                    <div class="circles">
+                        <div class="circle circle-blue"></div>
+                        <div class="circle circle-gold"></div>
+                    </div>
+                </div>
+                <h2 class="university-name">Universidad Mariano Gálvez</h2>
+            </header>
+
+            <div class="card-content">
+                <div class="badge pulse-animation">
+                    <span class="badge-icon">⚙️</span>
+                    <span>Asignación Especial</span>
+                </div>
+                
+                <h1 class="course-title">Sistemas Operativos 2</h1>
+                
+                <div class="divider"></div>
+                
+                <div class="task-highlight">
+                    <h3>Tarea Práctica</h3>
+                    <p class="highlight-text">
+                        <span class="gradient-text">Pruebas de Integración y Despliegue Continuo</span> (CI/CD)
+                    </p>
+                </div>
+
+                <p class="description">
+                    Bienvenido a la plataforma de evaluación continua. En este módulo pondremos a prueba tus conocimientos sobre pipelines, automatización de pruebas, y despliegue ininterrumpido.
+                </p>
+
+                <div class="action-buttons">
+                    <button class="primary-btn" id="startBtn">
+                        Iniciar Pruebas
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow-icon"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </button>
+                    <button class="secondary-btn" id="docBtn">Ver Documentación</button>
+                </div>
+            </div>
+            
+            <footer class="card-footer">
+                <div class="status-indicator">
+                    <div class="status-dot"></div>
+                    <span>Pipeline Ready</span>
+                </div>
+                <div class="version">v1.2.0-beta</div>
+            </footer>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
